@@ -1,2 +1,3 @@
-# ads-grupo15-cinetrack
-Prática Profissional em Análise e Desenvolvimento de Sistemas
+# CineTrack: Ligado nos Filmes
+Prática Profissional em Análise e Desenvolvimento de Sistemas - Mackenzie
+Grupo 15
