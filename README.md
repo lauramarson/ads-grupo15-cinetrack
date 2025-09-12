@@ -9,7 +9,7 @@ O CineTrack foi projetado para ser seu companheiro ideal no mundo do cinema e da
 
 * ℹ️ Ver Todas as Informações: Acesse uma tela de detalhes completa com pôster, sinopse, ano de lançamento e mais.
 
-* ❤️ Criar sua Lista de Favoritos: Salve os filmes e séries que você mais ama para acessá-los facilmente.
+* ❤️ Criar sua Lista para Assistir Depois: Salve os filmes que você gostaria de assistir e nunca mais se esqueça de assistir aquele filme legal.
 
 * ✅ Marcar como Assistido: Mantenha um registro de tudo que você já assistiu.
 
@@ -21,10 +21,10 @@ O projeto foi estruturado com base nos seguintes casos de uso, focando na experi
 ```mermaid
 graph TD
     A(Usuário) --> B{Buscar Filme/Série};
-    A --> C{Ver Lista de Favoritos};
+    A --> C{Ver Lista de Assistir Depois};
     A --> D{Ver Lista de Assistidos};
     B --> E((Ver Detalhes));
-    E --> F((Adicionar aos Favoritos));
+    E --> F((Adicionar em Assistir Depois));
     E --> G((Adicionar aos Assistidos));
     C --> E;
     D --> E;
