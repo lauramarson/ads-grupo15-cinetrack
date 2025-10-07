@@ -1,19 +1,19 @@
 # 🎬 CineTrack: Ligado nos Filmes
 
-CineTrack é um aplicativo iOS nativo que permite aos usuários buscar, salvar e organizar seus filmes e séries favoritos de forma simples e intuitiva. Nunca mais se esqueça daquele filme que te recomendaram ou perca a conta do que você já assistiu!
+CineTrack é um aplicativo iOS nativo que permite aos usuários buscar, salvar e organizar seus filmes favoritos de forma simples e intuitiva. Nunca mais se esqueça daquele filme que te recomendaram ou perca a conta do que você já assistiu!
 
 ## ✨ Funcionalidades Principais
-O CineTrack foi projetado para ser seu companheiro ideal no mundo do cinema e das séries. Com ele, você pode:
+O CineTrack foi projetado para ser seu companheiro ideal no mundo do cinema. Com ele, você pode:
 
-* 🔍 Buscar Detalhadamente: Encontre qualquer filme ou série pelo nome com uma busca rápida e eficiente.
+* 🔍 Buscar Detalhadamente: Encontre qualquer filme pelo nome com uma busca rápida e eficiente.
 
 * ℹ️ Ver Todas as Informações: Acesse uma tela de detalhes completa com pôster, sinopse, ano de lançamento e mais.
 
-* ❤️ Criar sua Lista para Assistir Depois: Salve os filmes que você gostaria de assistir e nunca mais se esqueça de assistir aquele filme legal.
+* ❤️ Crie sua Lista para Assistir Depois: Salve os filmes que você gostaria de assistir depois, para nunca mais se esquecer daquele filme legal!
 
 * ✅ Marcar como Assistido: Mantenha um registro de tudo que você já assistiu.
 
-* 📱 Navegação Intuitiva: Alterne facilmente entre a busca, seus favoritos e sua lista de assistidos através de uma Tab Bar limpa e funcional.
+* 📱 Navegação Intuitiva: Alterne facilmente entre a busca, sua lista de assistidos e assistir depois através de uma Tab Bar limpa e funcional.
 
 ## 🏛️ Arquitetura e Casos de Uso
 O projeto foi estruturado com base nos seguintes casos de uso, focando na experiência do usuário:
@@ -24,7 +24,7 @@ graph TD
     A --> C{Ver Lista de Assistir Depois};
     A --> D{Ver Lista de Assistidos};
     B --> E((Ver Detalhes));
-    E --> F((Adicionar em Assistir Depois));
+    E --> F((Adicionar à Lista Assistir Depois));
     E --> G((Adicionar aos Assistidos));
     C --> E;
     D --> E;
@@ -48,9 +48,9 @@ Este é um projeto 100% nativo, desenvolvido com as tecnologias mais consolidada
 
 * Linguagem: Swift
 
-* Framework de UI:  UIKit
+* Framework de UI:  SwiftUI
 
-* Gerenciamento de Dependências:  CocoaPods
+* Gerenciamento de Dependências:  Swift Package Manager
 
 * API: The Movie Database - TMDB API
 
@@ -61,10 +61,10 @@ Para rodar o CineTrack em seu ambiente local, siga os passos abaixo:
 git clone https://github.com/seu-usuario/CineTrack.git
 
 ### 2. Navegue até o diretório do projeto
-cd CineTrack
+cd cine-track
 
 ### 3. Abra o arquivo .xcodeproj no Xcode
-open CineTrack.xcodeproj
+open cine-track.xcodeproj
 
 Após abrir no Xcode, basta selecionar um simulador de iPhone e clicar em "Run" (▶️).
 
