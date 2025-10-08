@@ -58,13 +58,18 @@ Este é um projeto 100% nativo, desenvolvido com as tecnologias mais consolidada
 Para rodar o CineTrack em seu ambiente local, siga os passos abaixo:
 
 ### 1. Clone o repositório
-git clone https://github.com/seu-usuario/CineTrack.git
+git clone https://github.com/lauramarson/ads-grupo15-cinetrack.git
 
 ### 2. Navegue até o diretório do projeto
-cd cine-track
+cd ads-grupo15-cinetrack/cine-track
 
 ### 3. Abra o arquivo .xcodeproj no Xcode
 open cine-track.xcodeproj
+
+### 4. Adicione um Token do TMDB
+1. Abra o arquivo onde o token deve ficar armazenado com o comando: 
+open cine-track/Common/Constants.swift
+2. Na linha 14, adicione seu token obtido no site do TMDB.
 
 Após abrir no Xcode, basta selecionar um simulador de iPhone e clicar em "Run" (▶️).
 
