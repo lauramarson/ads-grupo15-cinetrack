@@ -70,6 +70,8 @@ struct SavedMovies: View {
     }
 }
 
+#if DEBUG
 #Preview {
     SavedMovies(.watched)
 }
+#endif

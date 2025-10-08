@@ -54,7 +54,7 @@ class SearchViewModel: ObservableObject {
         let response = await service.popular()
         switch response.result {
         case .success(let result):
-            var movies = result.results
+            let movies = result.results
             state = .loaded(movies)
         case .failure(let error):
             state = .error(error.errorDescription ?? "Error")

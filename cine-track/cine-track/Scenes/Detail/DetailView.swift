@@ -208,6 +208,8 @@ struct DetailView: View {
     }
 }
 
+#if DEBUG
 #Preview {
     DetailView(movie: batman)
 }
+#endif

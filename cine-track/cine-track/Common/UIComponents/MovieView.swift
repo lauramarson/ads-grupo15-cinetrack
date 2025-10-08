@@ -55,7 +55,9 @@ struct MovieView: View {
     
 }
 
+#if DEBUG
 #Preview {
     MovieView(movie: batmanPuppetMaster)
         .frame(width: 175, height: 225)
 }
+#endif

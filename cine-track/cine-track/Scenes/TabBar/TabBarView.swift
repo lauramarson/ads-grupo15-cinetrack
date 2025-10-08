@@ -105,6 +105,8 @@ struct TabBarView: View {
     }
 }
 
+#if DEBUG
 #Preview {
     TabBarView()
 }
+#endif

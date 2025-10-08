@@ -60,7 +60,7 @@ struct StateButton: View {
 }
 
 
-
+#if DEBUG
 #Preview {
     @Previewable @State var isSelected1 = false
     @Previewable @State var isSelected2 = true
@@ -81,3 +81,4 @@ struct StateButton: View {
     .padding()
     .background(Color.background)
 }
+#endif

@@ -78,7 +78,9 @@ struct SearchView: View {
     
 }
 
+#if DEBUG
 #Preview {
     SearchView()
         .environment(\.clientAPI, MockApiClient())
 }
+#endif

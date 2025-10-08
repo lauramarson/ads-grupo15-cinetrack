@@ -24,7 +24,9 @@ struct CustomBackButton: View {
     }
 }
 
+#if DEBUG
 #Preview {
     CustomBackButton()
         .background(Color.background)
 }
+#endif
