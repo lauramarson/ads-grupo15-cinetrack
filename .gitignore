@@ -30,6 +30,8 @@ playground.xcworkspace
 # .swiftpm
 
 .build/
+.DS_Store
+cine-track/.DS_Store
 
 # CocoaPods
 #
