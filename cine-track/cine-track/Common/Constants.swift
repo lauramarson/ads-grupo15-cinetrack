@@ -113,7 +113,6 @@ let batmanPuppetMaster = Movie(
 // MARK: - UI
 
 extension Color {
-    
     static let cellBackground: Color = .gray
     static let background: Color = Color(hex: "01052E")!
     static let softWhite: Color = Color(hex: "F5F5F5")!
@@ -122,9 +121,7 @@ extension Color {
 }
 
 extension Color {
-    
     var uiColor: UIColor {
         UIColor(self)
     }
-    
 }
