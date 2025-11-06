@@ -13,12 +13,10 @@ private struct APIServiceKey: EnvironmentKey {
 }
 
 extension EnvironmentValues {
-    
     var clientAPI: ClientAPI {
         get { self[APIServiceKey.self] }
         set { self[APIServiceKey.self] = newValue }
     }
-    
 }
 
 // MARK: - MovieDataManager
