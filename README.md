@@ -55,7 +55,7 @@ Este é um projeto 100% nativo, desenvolvido com as tecnologias mais consolidada
 * API: The Movie Database - TMDB API
 
 ## 🚀 Como Executar o Projeto
-Para rodar o CineTrack em seu ambiente local, siga os passos abaixo:
+Para rodar o CineTrack em seu ambiente local, siga os passos abaixo no terminal do seu MacOS:
 
 ### 1. Clone o repositório
 git clone https://github.com/lauramarson/ads-grupo15-cinetrack.git
@@ -73,3 +73,4 @@ open cine-track/Common/Constants.swift
 
 Após abrir no Xcode, basta selecionar um simulador de iPhone e clicar em "Run" (▶️).
 
+OBS: um token será fornecido no documento de entrega da atividade. Como alternativa, é possível criar um token pessoal seguindo [este tutorial](https://launchschool.com/books/working_with_apis/read/tmdb_api#gainingaccess).
